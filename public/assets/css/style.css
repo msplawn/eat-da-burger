@@ -1,18 +1,39 @@
+/* body {
+background-color: darkslategray;
+color: white;
+} */
+
 h1 {
   text-align: center;
 }
 
-container {
+.container {
   display: flex;
+  justify-content: center;
+  /* background-color: black; */
+}
+
+.jumbotron  {
+  display: flex;
+  justify-content: center;
+}
+.display-4  {
+  width: 100%;
 }
 
 #need {
-  width: 50%;
+  width: 33%;
   text-align: center;
 }
 
+#burger {
+  padding: 20px;
+  margin: 20px;
+  align-items: center;
+}
+
 #ate {
-  width: 50%;
+  width: 33%;
   text-align: center;
 }
 
@@ -23,7 +44,6 @@ text-align: center;
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
 }
 
 .label {
