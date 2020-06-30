@@ -1,29 +1,46 @@
-/* body {
-background-color: darkslategray;
-color: white;
-} */
+body {
+background-color: khaki;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 h1 {
   text-align: center;
+  padding: 20px;
+  text-shadow: 3px 3px 8px red;
+  font-size: 100px;
+}
+.burgers  {
+  font-size: 20px;
 }
 
+button  {
+  padding: 10px;
+  background-color:lightcoral;
+  color: aliceblue;
+}
 .container {
   display: flex;
   justify-content: center;
-  /* background-color: black; */
 }
 
 .jumbotron  {
-  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 30px;
+}
+
+#burgerimg  {
   justify-content: center;
 }
-.display-4  {
-  width: 100%;
+
+button  {
+ margin: 10px;
 }
 
 #need {
-  width: 33%;
+  /* width: 50%; */
   text-align: center;
+  padding: 20px;
 }
 
 #burger {
@@ -33,12 +50,19 @@ h1 {
 }
 
 #ate {
-  width: 33%;
+  /* width: 50%; */
   text-align: center;
+  padding: 20px;
 }
 
 #add  {
+  font-size: 20px;
 text-align: center;
+padding: 20px;
+}
+
+input {
+  text-align: center;
 }
 
 li {
