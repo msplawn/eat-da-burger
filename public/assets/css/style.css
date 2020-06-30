@@ -38,7 +38,6 @@ button  {
 }
 
 #need {
-  /* width: 50%; */
   text-align: center;
   padding: 20px;
 }
@@ -50,7 +49,6 @@ button  {
 }
 
 #ate {
-  /* width: 50%; */
   text-align: center;
   padding: 20px;
 }
@@ -73,12 +71,6 @@ li {
 .label {
   font-weight: bold;
 }
-
-/* .create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
-} */
 
 .form-group {
   margin-bottom: 5px;
