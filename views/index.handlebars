@@ -1,29 +1,39 @@
-<h1>Eat Da Burger!</h1>
-<container>
-  <div id="need">
+<div class="container">
+  <div class="row"></div>
+  <div class="jumbotron">
+    <h1 class="display-4">Eat Da Burger!</h1>
+    <div class="row">
+      <img src="/assets/images/burger.png">
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div id="need" class="col-sm">
     <h2>Need Da Burg!</h2>
 
-    <ul>
-      {{#each cats}}
-      {{#unless sleepy}}
-      {{> cats/cat-block sleep=true}}
-      {{/unless}}
-      {{/each}}
-    </ul>
+
+    {{#each burgers}}
+    {{#unless devoured}}
+    {{> burger/burger-block devoured=true}}
+    {{/unless}}
+    {{/each}}
+
   </div>
 
-  <div id="ate">
+
+  <div id="ate" class="col-sm">
     <h2>Ate Da Burg!</h2>
 
-    <ul>
-      {{#each cats}}
-      {{#if sleepy}}
-      {{> cats/cat-block sleep=false}}
-      {{/if}}
-      {{/each}}
-    </ul>
+
+    {{#each burgers}}
+    {{#if devoured}}
+    {{> burger/burger-block devoured=false}}
+    {{/if}}
+    {{/each}}
+
   </div>
-</container>
+</div>
 
 <div id="add">
   <h2>Add A Burg!</h2>
@@ -36,4 +46,5 @@
 
     <button type="submit">Add Burg!</button>
   </form>
+</div>
 </div>
